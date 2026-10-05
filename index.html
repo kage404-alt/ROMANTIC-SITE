@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🎀</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div id="app">
+
+  <!-- الصفحة الأولى -->
+  <section class="page page1 active">
+
+    <div class="grid"></div>
+
+    <div class="card">
+
+      <!-- Hello Kitty -->
+      <div class="kitty">
+
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+
+        <div class="eye left"></div>
+        <div class="eye right"></div>
+
+        <div class="nose"></div>
+
+        <div class="whisker w1"></div>
+        <div class="whisker w2"></div>
+        <div class="whisker w3"></div>
+        <div class="whisker w4"></div>
+
+        <div class="bow">
+          <div class="bow-left"></div>
+          <div class="bow-right"></div>
+          <div class="bow-center"></div>
+        </div>
+
+      </div>
+
+      <h2>🎀 Hello Kitty 🎀</h2>
+
+      <p>
+        همم شوفي سويت هذا قبل لا انتي تجاوبين او يمكن تجين من المدرسه
+        حتى سوو شويه عندي كلام اريد. اگوله
+      </p>
+
+      <button onclick="nextPage(1)">
+        گول
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- الصفحة الثانية -->
+  <section class="page page2">
+
+    <div class="corner" onclick="kittyEffect()">
+
+      <div class="mini-kitty">
+
+        <div class="mini-ear left"></div>
+        <div class="mini-ear right"></div>
+
+        <div class="mini-eye left"></div>
+        <div class="mini-eye right"></div>
+
+        <div class="mini-nose"></div>
+
+        <div class="mini-bow"></div>
+
+      </div>
+
+    </div>
+
+
+    <div class="message">
+
+      <p>
+
+        زوزه زهراء لو اريد اوصف شويه منچ راح تطولين وانتي تقرين الوصف
+        لدرجه تملين وخاصهه غيرتي عليچ و اي عمي وانوب انتي كبرانه 😋
+
+        <br><br>
+
+        وصراحه مگدرت اتحمل فكرة انو انتي ويه غيري والايام الي راحت كلها
+        احاول اتجنب افكر بيچ وانو عندج علاقه ويه حسين بس غيرتي ما تسمح
+        لو بيدي جان حبستچ بقفص يلا من نزوج احبسچ بقفص 🥰
+
+        <br><br>
+
+        بس تدرين يمكن تكولين بسبب نرجسيتي بس حتى اذا جنت مو نرجسي
+        همين راح اسوي نفس الشي لنفس السبب هواي اسولف هنا اني واو 🥀
+
+        <br><br>
+
+        وانتي براحتچ بعد وصورچ مو كلهن حذفتهن هاهاها ومحادثاتنا شكد
+        رجعت اقراهن بس اريد افهمچ اكثر لان انتِ ما تحچين شنو تريدين
+        وهذا طبيعي سوو تونسي بالفقرات الجايه امحح❤️‍🩹🌹
+
+        <br><br><br>
+
+        <b>
+          جربتي تضغطين على الهيلو كيتي الفوگ؟😱
+        </b>
+
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <!-- الصفحة الثالثة -->
+  <section class="page page3">
+
+    <div class="whiteText">
+
+      <p>
+        شفتي بياض الخلفيه؟
+      </p>
+
+      <p>
+        هيج اريد نبدي سويه بدون ولا اثر
+      </p>
+
+      <button onclick="nextPage(3)">
+        تدلل حبيبي
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- الصفحة الأخيرة -->
+  <section class="page page4">
+
+    <div id="stars"></div>
+
+    <div class="final">
+
+      <div class="record"></div>
+
+      <p>
+        هيج فد يوم نگعد ونشوف سمانا؟
+      </p>
+
+      <button onclick="playMusic()">
+        🎵 تشغيل Interstellar
+      </button>
+
+    </div>
+
+  </section>
+
+</div>
+
+
+<audio id="music" loop>
+  <source src="Interstellar.mp3" type="audio/mpeg">
+</audio>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
